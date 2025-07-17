@@ -1,5 +1,5 @@
 ! Peaceful Twitter
-! Feel Free to remove sections that with stuff you wanna keep
+! Feel Free to remove sections that target stuff you wanna keep
 
 ! Grok bullshit
 x.com##.css-175oi2r.r-sdzlij.r-1phboty.r-rs99b7.r-lrvibr.r-2yi16.r-1qi8awa.r-1loqt21.r-o7ynqc.r-6416eg.r-1ny4l3l:matches-attr(aria-label="Profile Summary")
