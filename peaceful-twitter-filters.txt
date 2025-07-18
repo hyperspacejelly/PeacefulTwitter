@@ -27,12 +27,11 @@ x.com##a:matches-attr(href="https://ads.x.com/?ref=gl-tw-tw-twitter-ads-rweb")
 ! Right column "Subscribe to Premium" block
 x.com##div[data-testid="super-upsell-UpsellCardRenderProperties"]
 
-! Who to follow etc.
-x.com##.css-175oi2r.r-kemksi.r-1kqtdi0.r-1867qdf.r-1phboty.r-rs99b7.r-1ifxtd0.r-1udh08x
-x.com##div[aria-label="Timeline: Trending now"]
+! Trending now.
+x.com##div:has(> section > div:matches-attr(aria-label="Timeline: Trending now"))
 
-! Live on X
-x.com##div.r-1udh08x.r-1ifxtd0.r-rs99b7.r-1phboty.r-1867qdf.r-1kqtdi0.r-kemksi.css-175oi2r:nth-of-type(4)
-x.com##.r-3pj75a.r-1w6e6rj.r-18u37iz.css-175oi2r
-x.com##.r-ttdzmv.r-vacyoi.css-175oi2r > div.css-175oi2r > .r-1udh08x.r-1ifxtd0.r-rs99b7.r-1phboty.r-1867qdf.r-1kqtdi0.r-kemksi.css-175oi2r
+! Who to follow.
+x.com##div:has(> nav:matches-attr(aria-label="Footer"))
 
+! Sidebar footer
+x.com##div:has(> div > aside:matches-attr(aria-label="Who to follow"))
