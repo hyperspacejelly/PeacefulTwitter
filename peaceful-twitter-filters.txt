@@ -35,3 +35,6 @@ x.com##div:has(> nav:matches-attr(aria-label="Footer"))
 
 ! Sidebar footer
 x.com##div:has(> div > aside:matches-attr(aria-label="Who to follow"))
+
+! Premium subscription
+x.com##.r-bnwqim.r-u9wvl5.r-w7s2jr.r-uaa2di.r-eqz5dr.r-1habvwh.css-175oi2r
